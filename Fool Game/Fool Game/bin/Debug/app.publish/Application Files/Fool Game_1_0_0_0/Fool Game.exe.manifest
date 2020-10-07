@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Fool Game.exe" version="1.0.0.0" publicKeyToken="f1e8f879d7ebdcf0" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Fool Game" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Fool Game.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Fool Game.exe" size="167936">
+      <assemblyIdentity name="Fool Game" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>R7fs5YCe/1M8mrOoJAgLG5nBY/NGOZOqb6uIMZAsj5g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Fool Game.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-4FOHVHB\Asus" issuerKeyHash="7147b455f8364a2f3d1316ab483b69a73b15c811" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ZJMz69aAxrV1XY2o4VWa9yvmj3SE2GzKQcT4vDB3oNM=</DigestValue></Reference></SignedInfo><SignatureValue>fLpG6GrQmGODprxT7XOf5wAho5oTG4IoOhcY1tsAnBBF4fbX+m9Xh9Hu+YxqAQ6FUKFCpsqYUogYri4kbS6w7wuNGhFjL++hD82L0V6T2SJ9r6DKkj7LLCcbSjlKxAtgA67qQySOM/CvFU7d1GMiS+BlG+n4g6EE2Do84KlqhZE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1lWuq1MmUhEzq+bUH8DnpxgR/U+GZrLNaIvdzM+CeQPR7KzNyejfr+w0hxwRIYiDdB90msRaNJr4V+ux6hETb3JcaxLVcnVTpkTNnar5P+KMjzWO0rluD/M7C9oC7hLZqrXffxjhY1P/IATSLF76d2wOTWr71uqMT3eWZ6K1730=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d3a07730bcf8c441ca6cd884748fe62bf79a55e1a88d5d75b5c680d6eb339364" Description="" Url=""><as:assemblyIdentity name="Fool Game.exe" version="1.0.0.0" publicKeyToken="f1e8f879d7ebdcf0" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-4FOHVHB\Asus</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>XnxsuqjxLCkf1xwt+qye+wW8QRGMW4p7N4gHWZ0L9m0=</DigestValue></Reference></SignedInfo><SignatureValue>JcOcQUKjYRk6mtDL7r1TUJ1r9z9gVXZoKtMzNozexUxrTTihPtoKYYMHpN6pTcrofFXItmJQ+yVP8Ty06wndrfpuqvGEoW09lhYEMvSAXc00Spk/9sIxli1dBSrmPrFm0p+KjK0TgJpO04B6vHKia4p5Gi+Ya+3lVECg/E8huak=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1lWuq1MmUhEzq+bUH8DnpxgR/U+GZrLNaIvdzM+CeQPR7KzNyejfr+w0hxwRIYiDdB90msRaNJr4V+ux6hETb3JcaxLVcnVTpkTNnar5P+KMjzWO0rluD/M7C9oC7hLZqrXffxjhY1P/IATSLF76d2wOTWr71uqMT3eWZ6K1730=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQb5iQY+NDYqhOF+ooAXJlMzANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtADQARgBPAEgAVgBIAEIAXABBAHMAdQBzMB4XDTE4MDQxOTA0MjEyMFoXDTE5MDQxOTEwMjEyMFowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQA0AEYATwBIAFYASABCAFwAQQBzAHUAczCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA1lWuq1MmUhEzq+bUH8DnpxgR/U+GZrLNaIvdzM+CeQPR7KzNyejfr+w0hxwRIYiDdB90msRaNJr4V+ux6hETb3JcaxLVcnVTpkTNnar5P+KMjzWO0rluD/M7C9oC7hLZqrXffxjhY1P/IATSLF76d2wOTWr71uqMT3eWZ6K1730CAwEAATANBgkqhkiG9w0BAQsFAAOBgQC4t0P5XSh+ZJcxhWZ60jA51B12klX7FgGT68i/4HlLNyNYj2n3TYnh1b+T8MsK4rO2iuk+QTGi1MOhBht56NjsJqS8QRdReRQoMjyxSh20LX/WAyfAPtacWX8WyHpcMkwFBzkrIS/dYNA58Gmpg3IZ94GOd9mlf43dqrXdXmD0dw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

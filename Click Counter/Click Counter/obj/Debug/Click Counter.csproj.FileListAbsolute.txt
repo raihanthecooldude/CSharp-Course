@@ -1,0 +1,13 @@
+F:\Study\Codes\6th Sem Mohaimen Sir - C#\C#\Assignment\Solution\Click Counter\Click Counter\bin\Debug\Click Counter.exe.config
+F:\Study\Codes\6th Sem Mohaimen Sir - C#\C#\Assignment\Solution\Click Counter\Click Counter\bin\Debug\Click Counter.exe
+F:\Study\Codes\6th Sem Mohaimen Sir - C#\C#\Assignment\Solution\Click Counter\Click Counter\bin\Debug\Click Counter.pdb
+F:\Study\Codes\6th Sem Mohaimen Sir - C#\C#\Assignment\Solution\Click Counter\Click Counter\obj\Debug\Click Counter.csprojResolveAssemblyReference.cache
+F:\Study\Codes\6th Sem Mohaimen Sir - C#\C#\Assignment\Solution\Click Counter\Click Counter\obj\Debug\Click_Counter.ClickCounter.resources
+F:\Study\Codes\6th Sem Mohaimen Sir - C#\C#\Assignment\Solution\Click Counter\Click Counter\obj\Debug\Click_Counter.Properties.Resources.resources
+F:\Study\Codes\6th Sem Mohaimen Sir - C#\C#\Assignment\Solution\Click Counter\Click Counter\obj\Debug\Click Counter.csproj.GenerateResource.Cache
+F:\Study\Codes\6th Sem Mohaimen Sir - C#\C#\Assignment\Solution\Click Counter\Click Counter\obj\Debug\Click Counter.exe
+F:\Study\Codes\6th Sem Mohaimen Sir - C#\C#\Assignment\Solution\Click Counter\Click Counter\obj\Debug\Click Counter.pdb
+F:\Study\Codes\6th Sem Mohaimen Sir - C#\C#\Assignment\Solution\Click Counter\Click Counter\bin\Debug\Click Counter.exe.manifest
+F:\Study\Codes\6th Sem Mohaimen Sir - C#\C#\Assignment\Solution\Click Counter\Click Counter\bin\Debug\Click Counter.application
+F:\Study\Codes\6th Sem Mohaimen Sir - C#\C#\Assignment\Solution\Click Counter\Click Counter\obj\Debug\Click Counter.exe.manifest
+F:\Study\Codes\6th Sem Mohaimen Sir - C#\C#\Assignment\Solution\Click Counter\Click Counter\obj\Debug\Click Counter.application
